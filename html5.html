@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5 CSS3 Perfomance</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+        <h1 id="title" method="get">Get a site of your dream</h1>
+        <div id="formPlace">
+            <p id="description">
+             Live your contacts here
+          </p>
+          <form action="" id="survey-form" method="GET" action="koower@mail.ru">
+            <div id="rowTabs">
+              <div class="labels">
+                <label id="name-label" for="*name">*Name:</label>
+              </div>
+              <div class="rightTab">
+                <input autofocus type="text" name="name" id="name"  class="input-field" placeholder="Enter your name" required>
+              </div>
+            </div> 
+            <div class="rowTab">
+              <div class="labels">
+                <label id="email-label" for="email">* Email: </label>
+              </div>
+              <div class="rightTab">
+                <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+              </div>
+            </div>
+             <div id="rowTabs">
+              <div class="labels">
+                <label id="number-label" for="*name">*Age:</label>
+              </div>
+              <div class="rightTab">
+                <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age"  required>
+              </div>
+            </div>
+            <div id="rowsTabs">
+              <div class="labels">
+                <label for="currentPos">
+                  What website do you need?
+                </label>
+              </div>
+              <div class="rightTab">
+                <select name="currentPos" id="dropdown"><option value="disabled value">Select an option </option>
+                  <option value="landing">Landing</option>
+                  <option value="webshop">Web Shop</option>
+                  <option value="interSite">Interactive site</option>
+                  <option value="infoSite">
+                    Information Page
+                  </option>
+                  
+                </select>
+                
+              </div>
+              <div id="rowTabs">
+                <div class="labels">
+                  <label for="moneyRaiting">
+                    How much money are you ready to give to get a site of your Dream
+                  </label>
+                </div>
+                <div class="rightTab">
+                  <ul>
+                    <li class="radio">
+                      <label >1000$ <input name="radio-buttons" value="1" type="radio" class="moneyRaiting"></label>
+                    </li>
+                      <li class="radio">
+                      <label >700$ <input name="radio-buttons" value="2" type="radio" class="moneyRaiting"></label>
+                          <li class="radio">
+                      <label >500$ <input name="radio-buttons" value="3" type="radio" class="moneyRaiting"></label>
+                    </li>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            <div id="rowTabs">
+              <div class="labels">
+                <label for="langchoose">What language your site must be?
+                </label>
+              </div>
+            <div class="rightTab">
+              <select name="landChoose" id="langchoose" class="dropdown">
+                <option disabled selected value>Select an option</option>
+                <option value="pol">Polish</option>
+                <option value="rus">Russian</option>
+                <option value="eng">English</option>
+              </select>
+            </div>
+            </div>
+            <div id="rowTabs">
+              <div class="labels">
+                <label for="techChoose">
+                  What technology you wanna choose?
+                </label>
+              </div>
+              <div class="rightTab">
+                <ul style="list-style:none;" id="techChoose">
+                  <li class="checkbox" ><label><input name="prefer" value="1" type="checkbox" class="userRating">HTML5</label></li> 
+                  <li class="checkbox"><label> <input name="prefer" value="2"  type="checkbox" class="userRating">CSS3</label></li>
+                  <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRating">JS</label></li>
+                  <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRating">Responsive Deisign</label></li>
+                   <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRating">Animations</label></li>
+                   <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="userRating">Data Base of Clients</label></li>
+                </ul>
+              </div>
+             </div>
+            <div id="rowTab">
+              <div class="labels">
+                <label for="comments">Any additional words?</label>
+              </div>
+              <div class="rightTab">
+                <textarea name="comment" id="comments" class="input-field" style="height:50px;" placeholder="Leave several words here..." ></textarea>
+              </div>
+            </div>
+            <button id="submit">Submit</button>
+          </form>
+        </div> 
+        
+        
+</body>
+</html>
